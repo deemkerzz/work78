@@ -187,3 +187,24 @@ body {
     width: 650px;
     transform: translate(1100px, -60%);
 }
+
+.list2 {
+    display: flex;
+}
+
+.list2__contents {
+    display: flex;
+    gap: 40px;
+    padding: 80px 200px;
+}
+
+.list2__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list2__name {
+    font-size: 22px;
+    font-weight: 700;
+}
